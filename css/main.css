@@ -97,7 +97,7 @@ textarea {
 
 /*Large Background Image*/
 html {
-  background: url(../img/bkgdcust.jpg) no-repeat center center fixed;
+  background: url(../img/bkgd-new.jpg) no-repeat center center fixed;
 background-size: cover;
 height: 100%;
    /* set height to 100% - these are important for allowing content to vertically align */
@@ -110,19 +110,18 @@ body {
 
 .wrapper {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
   /* set the display to flex and use the justify-content & align-items properties to center all child elements on the page */
   margin: 0;
   height: 100%;
   width: 100%;
 }
 
-#content, #interest {
+#content {
   display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
   /* set the display to flex and use the justify-content & align-items properties to center the text within the div*/
   background: #222;
   background:rgba(0,0,0,0.7);
@@ -136,7 +135,6 @@ body {
   padding: 0px 30px;
   width: 300px;
   height: 300px;
-  margin-right: 250px;
 }
 
 #content p span {
